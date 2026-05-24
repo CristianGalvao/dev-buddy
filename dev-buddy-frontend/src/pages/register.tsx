@@ -4,7 +4,7 @@ export default function Register() {
     return (
 
         <div className="w-full min-h-screen flex justify-center items-center  flex-col">
-            <div className="w-[30%] h-auto p-10 justify-center items-center flex-col flex text-center bg-[#0d1117]  rounded-lg font-medium border border-gray-700 border-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]" >
+            <div className=" w-full lg:w-[30%]  p-8 h-auto p-10 justify-center items-center flex-col flex text-center bg-[#0d1117]  rounded-lg font-medium border border-gray-700 border-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]" >
 
                 <img src={logo} className='w-[12%] mb-6 mt-8' />
                 <h1 className="mb-6 font-bold text-3xl">Cadastre-se!</h1>
