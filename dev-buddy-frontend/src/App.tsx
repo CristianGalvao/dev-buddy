@@ -1,14 +1,18 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// PAGES
 import Login from './pages/login';
 import Register from './pages/register';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ForgetPassword from './pages/forget_password'
 
 export default function App(){
   return(
     <BrowserRouter>
       <Routes>
 
-        <Route path='/' element={<Login/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/forget_password' element={<ForgetPassword/>}/>
 
       </Routes>
     </BrowserRouter>

@@ -59,7 +59,7 @@ function App() {
             <div>
               <div className="flex justify-between mb-1.5">
                 <label className="text-sm text-gray-400">Senha</label>
-                <a href="#" className="text-sm text-blue-500 hover:underline">Esqueceu a Senha?</a>
+               <Link  className="text-sm text-blue-500 hover:underline" to={'/forget_password'}>Esqueceu a Senha?</Link>
               </div>
               <input type="password" className="w-full p-2.5 rounded-lg bg-[#0d1117] border border-gray-800 focus:border-blue-600 outline-none transition" placeholder="••••••••" />
             </div>
