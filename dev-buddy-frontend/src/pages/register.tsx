@@ -16,7 +16,7 @@ export default function Register() {
                 <div className='w-[95%] h-auto p-0 mt-8'>
 
                     <form className="space-y-4">
-                        
+
 
                         <div>
 
@@ -25,7 +25,7 @@ export default function Register() {
 
                         </div>
 
-                        
+
                         <div>
 
                             <label className='block text-sm text-gray-400 mb-1.5 text-left'>Sobrenome</label>
